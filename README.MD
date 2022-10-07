@@ -13,7 +13,7 @@ pip install asyncio discord discord.py gTTS python-dotnev
 At line 12 in **textToSpeech.py** file:
 
 ```
-`DISCORD_TOKEN = os.getenv('DISCORD_TOKEN')`
+DISCORD_TOKEN = os.getenv('DISCORD_TOKEN')
 ```
 
 Change `os.getenv('DISCORD_TOKEN')` to your own Discord Token.
